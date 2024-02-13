@@ -1,0 +1,14 @@
+import {MoonIcon} from "@heroicons/react/24/solid"
+import ToggleTheme from "../ToggleTheme/ToggleTheme"
+
+const Header = () => {
+  return (
+    <div className="p-5 sm:m-5 sm:rounded-xl bg-alura-200 dark:bg-dark-200 flex justify-between items-center">
+      <span className="text-gray-100">Olá, Usuário</span>
+      <h1 className="text-gray-100 text-2xl sm:text-4xl">Alura Newsletter</h1>
+      <ToggleTheme className="h-8 text-gray-100 hidden sm:block cursor-pointer"/>
+    </div>
+  )
+}
+
+export default Header
